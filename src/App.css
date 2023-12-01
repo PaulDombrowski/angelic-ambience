@@ -1,38 +1,251 @@
-.App {
-  text-align: center;
+/* App.css */
+@font-face {
+  font-family: 'Amelina Script';
+  src: url('/public/Amelina\ Script.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Hypik';
+  src: url('/public/hypik.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  animation: backgroundFade 8s linear infinite;
+  background-color: rgb(254, 103, 141, 1);
+}
+
+
+/* Der Rest Ihres existierenden CSS */
+
+
+/* Der Rest Ihres existierenden CSS */
+
+
+/* Der Rest Ihres existierenden CSS */
+
+
+.snow-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100vh;
+  width: 100vw;
+  max-width: 1200px;
+  background-image: url('/public/enlarge_download.png');
+  background-size: cover;
+  background-position: top center;
+  z-index: 1;
+  overflow: hidden; /* Stellt sicher, dass das pseudo-Element innerhalb der Grenzen bleibt */
+}
+
+.snow-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(254, 103, 141, 1) 0%, rgba(254, 103, 141, 0) 10%, rgba(254, 103, 141, 0) 90%, rgba(254, 103, 141, 1) 100%);
+  z-index: -1;
+}
+
+/* Rest Ihres CSS */
+
+
+/* Rest Ihres CSS */
+
+
+/* Weitere Media Queries können hinzugefügt werden, um den Effekt weiter anzupassen */
+
+
+/* Rest Ihres CSS */
+
+
+@media (max-width: 600px) {
+  .snow-container {
+    background-position: top left 20%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+.flex-container {
+  position: relative;
+  z-index: 2; /* Über dem Hintergrund */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; /* Anpassung für Scrollen */
+  margin: auto;
+  width: 85%;
+  max-width: 800px;
+
+  /* Füge hinzu, falls benötigt: overflow-y: auto; */
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 900px) {
+  .flex-container {
+      width: 60%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/*titel*/
+
+@keyframes colorChange {
+  0%, 100% {
+    color: rgb(251, 251, 251);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    color: rgb(253, 1, 64)
   }
+}
+
+
+.title {
+  animation: colorChange  8s linear infinite;
+  
+  font-family: 'HYPIK';
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.text {
+  width: 100%;
+  text-align: center;
+  color: rgb(242, 209, 209);
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 30px,
+
+  
+}
+
+.title {
+  font-size: 100px;
+  
+  
+}
+
+
+
+@media (max-width: 600px) {
+  .text {
+      font-size: 14px; /* Kleinere Größe für Mobilgeräte */
+  }
+}
+
+.image, .video, .spotify-playlist {
+  width: 100%; /* Volle Breite der Flexbox */
+  margin: 10px 0; /* Abstand oben und unten */
+}
+
+/* Basisstil für die Bilder */
+.image {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Keyframes für die Schweben-Animation */
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px); /* Verändern Sie diesen Wert für mehr/weniger Höhe */
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+/* bewegter Schriftzug */
+
+
+@keyframes slideHorizontal {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes slideVertical {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+.marquee {
+  position: fixed;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Amelina Script';
+  font-size: 30px;
+  color: rgb(255, 0, 140);
+  animation: colorChange 8s linear infinite;
+}
+
+.marquee.horizontal span {
+  display: inline-block;
+  animation: slideHorizontal 90s linear infinite;
+}
+
+.marquee.vertical span {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  animation: slideVertical 90s linear infinite;
+}
+
+/* Positionierung der Marquee-Elemente */
+.top, .bottom {
+  left: 0;
+  right: 0;
+  height: 40px; /* Höhe des Lauftextes */
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+  transform: rotate(180deg); /* Text umdrehen */
+}
+
+.left, .right {
+  top: 0;
+  bottom: 0;
+  width: 40px; /* Breite des Lauftextes */
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  transform: rotate(180deg); /* Text umdrehen für rechte Seite */
+}
+
+
+
+/* CSS für alle <a>-Tags */
+a {
+  color: inherit; /* Erbt die Farbe vom umgebenden Element */
+  text-decoration: none; /* Entfernt die Unterstreichung */
+  font-family: inherit; /* Erbt die Schriftart vom umgebenden Element */
+  /* Fügen Sie hier weitere Stile hinzu, falls benötigt */
 }
