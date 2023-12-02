@@ -6,10 +6,9 @@ function Content() {
     <div className="flex-container">
       <h1 className="title">ANGELIC AMBIENCE</h1>
 
-      <img className="image" src="/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
+      <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
-     
-      <img className="image" src="/67ecdf3a-20dc-45f9-a93c-b445d132864b-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
+<img className="image" src={process.env.PUBLIC_URL + "/67ecdf3a-20dc-45f9-a93c-b445d132864b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 
       
@@ -53,10 +52,9 @@ Dialect - Teams <br />
 </a>
     
 
-      <img className="image" src="/25bbbc85-6eac-44c6-99fa-a5283ef05921-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
-      <img className="image" src="/33a4a439-adba-487d-98bc-1d1636e8399e-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
-   
+    <img className="image" src={process.env.PUBLIC_URL + "/25bbbc85-6eac-44c6-99fa-a5283ef05921-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
+<img className="image" src={process.env.PUBLIC_URL + "/33a4a439-adba-487d-98bc-1d1636e8399e-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
      
 
@@ -87,7 +85,8 @@ Rachika Nayar - Our Wretched Fantasy<br/>
 </a>
 
   
-<img className="image" src="/ada3378a-27c2-4283-a04e-7fd9e0cad847-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
+<img className="image" src={process.env.PUBLIC_URL + "/ada3378a-27c2-4283-a04e-7fd9e0cad847-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
+
    
 
 
@@ -125,14 +124,9 @@ Steve Hauschildt - Time We Have<br/>
 
 
 
-      <img className="image" src="/f3c7c83b-c8cd-414a-b4cd-4352c2fe61de-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
+<img className="image" src={process.env.PUBLIC_URL + "/f3c7c83b-c8cd-414a-b4cd-4352c2fe61de-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
-
-
-     
-
-      <img className="image" src="/ed8f4e15-d9ea-4cd7-ab1d-5d10de79d260-PhotoRoom.png-PhotoRoom.png" alt="Bildbeschreibung" />
-
+<img className="image" src={process.env.PUBLIC_URL + "/ed8f4e15-d9ea-4cd7-ab1d-5d10de79d260-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 
     </div>
