@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/angelic-ambience/static/css/main.aaa323d5.css",
+    "main.css": "/angelic-ambience/static/css/main.a6230799.css",
     "main.js": "/angelic-ambience/static/js/main.90115b8b.js",
     "static/js/787.0d43d4e8.chunk.js": "/angelic-ambience/static/js/787.0d43d4e8.chunk.js",
     "static/media/enlarge_download.png": "/angelic-ambience/static/media/enlarge_download.134fbee82865b04f1e1f.png",
     "static/media/hypik.ttf": "/angelic-ambience/static/media/hypik.2379ebfe3448299dcd0e.ttf",
     "static/media/Amelina Script.ttf": "/angelic-ambience/static/media/Amelina Script.c6303ae9f5b83e9cb619.ttf",
     "index.html": "/angelic-ambience/index.html",
-    "main.aaa323d5.css.map": "/angelic-ambience/static/css/main.aaa323d5.css.map",
+    "main.a6230799.css.map": "/angelic-ambience/static/css/main.a6230799.css.map",
     "main.90115b8b.js.map": "/angelic-ambience/static/js/main.90115b8b.js.map",
     "787.0d43d4e8.chunk.js.map": "/angelic-ambience/static/js/787.0d43d4e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa323d5.css",
+    "static/css/main.a6230799.css",
     "static/js/main.90115b8b.js"
   ]
 }
