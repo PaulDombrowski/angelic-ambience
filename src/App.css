@@ -65,10 +65,20 @@ body {
 
 /* Rest Ihres CSS */
 
+.title {
+  font-size: 110px;
+
+}
+
 
 @media (max-width: 600px) {
   .snow-container {
     background-position: top left 20%;
+  }
+
+    .title {
+      font-size: 80px;
+
   }
 }
 
@@ -93,6 +103,8 @@ body {
 @media (min-width: 900px) {
   .flex-container {
       width: 60%;
+
+      
   }
 }
 
@@ -130,11 +142,7 @@ body {
   
 }
 
-.title {
-  font-size: 110px;
-  
-  
-}
+
 
 
 
