@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Hypik';
-  src: url('/public/hypik.otf') format('woff2');
+  src: url('/public/hypik.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -125,13 +125,13 @@ body {
   text-align: center;
   color: rgb(242, 209, 209);
   font-family: 'Arial Black', Arial, sans-serif;
-  font-size: 30px,
+  font-size: 40px,
 
   
 }
 
 .title {
-  font-size: 100px;
+  font-size: 110px;
   
   
 }

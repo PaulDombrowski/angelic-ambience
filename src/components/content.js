@@ -6,18 +6,24 @@ function Content() {
     <div className="flex-container">
       <h1 className="title">ANGELIC AMBIENCE</h1>
 
-      <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
+      <img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
+
+  
 
 <img className="image" src={process.env.PUBLIC_URL + "/67ecdf3a-20dc-45f9-a93c-b445d132864b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 
-      
+
      
      
-     <a href="https://open.spotify.com/playlist/5rDEvWjqxY1HIkLZ6ebw4i?si=a02c2377804c4566"> <h1 className="title">2023 <br />House of Cherubim</h1>
+     <a href="https://open.spotify.com/playlist/5rDEvWjqxY1HIkLZ6ebw4i?si=a02c2377804c4566"> <h1 className="title">House of Cherubim</h1>
+
+  
       
 
-      <p className="text">
+      <p className="text"  >
+      <h1>2023 </h1>
+     
       Bby Eco - *seeding* <br />
       Money Lang - Loveless, Pt. 1 <br />
       HDMIRROR - ALWAYS TOO LATE <br />
@@ -51,17 +57,20 @@ Dialect - Teams <br />
 </p>
 </a>
     
+    <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
-    <img className="image" src={process.env.PUBLIC_URL + "/25bbbc85-6eac-44c6-99fa-a5283ef05921-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 <img className="image" src={process.env.PUBLIC_URL + "/33a4a439-adba-487d-98bc-1d1636e8399e-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
+
      
 
-      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da"> <h1 className="title">2022 <br />All Caroling (oh,ah,oh)</h1>
+      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da"> <h1 className="title">All Caroling (oh,ah,oh)</h1>
       
 
       <p className="text">
+      <h1>2022 </h1>
+     
       Plaid - Perspex<br/>
 Oxhy - latest nights<br/>
 Henry Purcell - Dido & Aeneas, Act I, Z. 626: II. Ah! Belinda<br/>
@@ -87,14 +96,19 @@ Rachika Nayar - Our Wretched Fantasy<br/>
   
 <img className="image" src={process.env.PUBLIC_URL + "/ada3378a-27c2-4283-a04e-7fd9e0cad847-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
+<img className="image" src={process.env.PUBLIC_URL + "/25bbbc85-6eac-44c6-99fa-a5283ef05921-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
+
+
    
 
 
 
-      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da"> <h1 className="title">2021 <br />If I was a DJ sent from heaven to heal you</h1>
+      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da"> <h1 className="title">If I was a DJ sent from heaven to heal you</h1>
       
 
       <p className="text">
+      <h1>2021 </h1>
+     
       Ian William Craig - Before Meaning Comes<br/>
 Samuel Organ - Kindness<br/>
 Yawning Portal - The Burning Bridge<br/>
