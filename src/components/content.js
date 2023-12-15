@@ -16,7 +16,7 @@ function Content() {
 
      
      
-     <a href="https://open.spotify.com/playlist/5rDEvWjqxY1HIkLZ6ebw4i?si=a02c2377804c4566"> <h1 className="title">House of Cherubim</h1>
+     <a href="https://open.spotify.com/playlist/5rDEvWjqxY1HIkLZ6ebw4i?si=a02c2377804c4566" target="_blank" rel="noopener noreferrer"> <h1 className="title">House of Cherubim</h1>
 
   
       
@@ -65,7 +65,7 @@ Dialect - Teams <br />
 
      
 
-      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da"> <h1 className="title">All Caroling (oh,ah,oh)</h1>
+      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da" target="_blank" rel="noopener noreferrer"> <h1 className="title">All Caroling (oh,ah,oh)</h1>
       
 
       <p className="text">
@@ -103,7 +103,7 @@ Rachika Nayar - Our Wretched Fantasy<br/>
 
 
 
-      <a href="https://open.spotify.com/playlist/3DQpDTb8kCe4gxNfOAg776?si=c3c2300d10ab4cde"> <h1 className="title">If I was a DJ sent from heaven to heal you</h1>
+      <a href="https://open.spotify.com/playlist/3DQpDTb8kCe4gxNfOAg776?si=c3c2300d10ab4cde" target="_blank" rel="noopener noreferrer"> <h1 className="title">If I was a DJ sent from heaven to heal you</h1>
       
 
       <p className="text">
