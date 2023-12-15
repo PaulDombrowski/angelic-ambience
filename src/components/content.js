@@ -6,9 +6,9 @@ function Content() {
     <div className="flex-container">
       <h1 className="title">ANGELIC AMBIENCE</h1>
 
-      <img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
+      
 
-  
+      <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 <img className="image" src={process.env.PUBLIC_URL + "/67ecdf3a-20dc-45f9-a93c-b445d132864b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
@@ -16,13 +16,13 @@ function Content() {
 
      
      
-     <a href="https://open.spotify.com/playlist/5rDEvWjqxY1HIkLZ6ebw4i?si=a02c2377804c4566" target="_blank" rel="noopener noreferrer"> <h1 className="title">House of Cherubim</h1>
+     <a href="https://open.spotify.com/playlist/5rDEvWjqxY1HIkLZ6ebw4i?si=a02c2377804c4566" target="_blank" rel="noopener noreferrer"> <h1 className="title">2023 <br /> House of Cherubim</h1>
 
   
-      
+     <img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
 
       <p className="text"  >
-      <h1>2023 </h1>
+      
      
       Bby Eco - *seeding* <br />
       Money Lang - Loveless, Pt. 1 <br />
@@ -57,7 +57,7 @@ Dialect - Teams <br />
 </p>
 </a>
     
-    <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
+   
 
 
 <img className="image" src={process.env.PUBLIC_URL + "/33a4a439-adba-487d-98bc-1d1636e8399e-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
@@ -65,11 +65,13 @@ Dialect - Teams <br />
 
      
 
-      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da" target="_blank" rel="noopener noreferrer"> <h1 className="title">All Caroling (oh,ah,oh)</h1>
+      <a href="https://open.spotify.com/playlist/4A7XXZMGnOdX1mOrsofQyw?si=2d74216f8a4748da" target="_blank" rel="noopener noreferrer"> <h1 className="title">2022 <br /> All Caroling (oh,ah,oh)</h1>
+
+      <img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
       
 
       <p className="text">
-      <h1>2022 </h1>
+
      
       Plaid - Perspex<br/>
 Oxhy - latest nights<br/>
@@ -103,11 +105,13 @@ Rachika Nayar - Our Wretched Fantasy<br/>
 
 
 
-      <a href="https://open.spotify.com/playlist/3DQpDTb8kCe4gxNfOAg776?si=c3c2300d10ab4cde" target="_blank" rel="noopener noreferrer"> <h1 className="title">If I was a DJ sent from heaven to heal you</h1>
+      <a href="https://open.spotify.com/playlist/3DQpDTb8kCe4gxNfOAg776?si=c3c2300d10ab4cde" target="_blank" rel="noopener noreferrer"> <h1 className="title">2021 <br />If I was a DJ sent from heaven to heal you</h1>
+
+      <img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
       
 
       <p className="text">
-      <h1>2021 </h1>
+  
      
       Ian William Craig - Before Meaning Comes<br/>
 Samuel Organ - Kindness<br/>
