@@ -11,10 +11,15 @@ function App() {
   const marqueeText = "Angelic Ambience ".repeat(40); // Wiederholt den Text, um genügend Länge zu erreichen
   return (
     
-    <div>
-    <Snowfall/>
+    
+     <div>
+      {/* Snowfall-Effekt bleibt fixiert */}
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
+        <Snowfall />
+      </div>
    <div className="snow-container">
    <SnowEffect/>
+   
       </div>
       
       

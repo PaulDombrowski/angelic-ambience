@@ -10,6 +10,62 @@ function Content() {
 
       <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
+
+      <a href="https://open.spotify.com/playlist/1Y8WvSQlEhZDeFoPmQM6Os?si=c82a9ef62990442f" target="_blank" rel="noopener noreferrer"> <h1 className="title">2024 <br /> U MIGHT BE THE REASON FOR THE CHRISTMAS SEASON</h1>
+
+  
+<img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
+
+ <p className="text"  >
+ 
+
+ YULLOLA - Blessed Obsessed<br />
+Lyra Pramuk - Cage<br />
+MIZU, Maria BC - Aveu (The Beginning Is a Farewell)<br />
+Isik Kural - Stems of Water<br />
+Adult Jazz - Dusk Song<br />
+helen island - alice dj<br />
+t0ni - keepsake<br />
+S8JFOU - Pebble B<br />
+Clarissa Connelly - Wee Rosebud<br />
+Holland Andrews - Wordless<br />
+Salvia - True Star<br />
+Maxime Denuc - Fat Old Sun<br />
+Jazzboy - The Sound of Life<br />
+Jonny Nash - Perfume Dream<br />
+Romance - I Am Trying To Break Your Heart<br />
+Oneohtrix Point Never - Zones Without People<br />
+Isobel Waller-Bridge, 12 Ensemble - My Brain Distorts Again<br />
+Tim Hecker - Monotony<br />
+Dylan Henner - A New Living Being Opens Its Eyes<br />
+Chantal Michelle - Departure of Light<br />
+Giant Claw - Mir-Cam Startup<br />
+Dylan Henner - Everyone I've Ever Loved Lives Here<br />
+7038634357 - Winded<br />
+Rachika Nayar - No Future<br />
+OHYUNG - symphonies sweeping!<br />
+Sofie Birch, Antonina Nowacka - Morning Room I<br />
+Nyokabi Kariuki - quiet face<br />
+Daniela Lalita - Trececerotres<br />
+Julianna Barwick - One Half<br />
+Samuel Organ - Soil<br />
+Sassy 009, Vegyn - Mystery Boy - Vegyn Remix<br />
+Dialect - Late Fragment<br />
+Sarah Meth - Computer Love<br />
+Caroline Polachek - The Gate - Extended Mix<br />
+Doon Kanda - welcome welcome<br />
+Colin Stetson - The righteous wrath of an honorable man<br />
+TWEAKS - Hills Have Eyes<br />
+Ani Zakareishvili - At First<br />
+Clarissa Connelly - Give it Back<br />
+Soap&Skin - The end <br />
+
+
+
+</p>
+</a>
+
+
 <img className="image" src={process.env.PUBLIC_URL + "/67ecdf3a-20dc-45f9-a93c-b445d132864b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 
@@ -134,6 +190,7 @@ Soap&Skin - What A Wonderful World<br/>
 Arca - Joya<br/>
 Rival Consoles - I Like<br/>
 Steve Hauschildt - Time We Have<br/>
+
 
 
 </p>
