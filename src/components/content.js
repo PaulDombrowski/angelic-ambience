@@ -11,7 +11,7 @@ function Content() {
       <img className="image" src={process.env.PUBLIC_URL + "/57ed22c3-ffaa-4bc5-8cc0-74acae461f5b-PhotoRoom.png-PhotoRoom.png"} alt="Bildbeschreibung" />
 
 
-      <a href="https://open.spotify.com/playlist/1Y8WvSQlEhZDeFoPmQM6Os?si=c82a9ef62990442f" target="_blank" rel="noopener noreferrer"> <h1 className="title">2024 <br /> U MIGHT BE THE REASON FOR THE CHRISTMAS SEASON</h1>
+      <a href="https://open.spotify.com/playlist/1Y8WvSQlEhZDeFoPmQM6Os?si=ad8324c1898b48d8" target="_blank" rel="noopener noreferrer"> <h1 className="title">2024 <br /> U MIGHT BE THE REASON FOR THE CHRISTMAS SEASON</h1>
 
   
 <img className="image" src={process.env.PUBLIC_URL + "/Sb_P957uMJH8Mkxwgv8t1-transformed.png"} alt="Bildbeschreibung" />
